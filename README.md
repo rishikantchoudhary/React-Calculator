@@ -1,6 +1,6 @@
 # Building a Basic React Calculator App with React 18 and useReducer Hook
 
-(Site Preview)[https://react-calculator-rishi.netlify.app/]
+[Site Preview](https://react-calculator-rishi.netlify.app/)
 
 ## Introduction
 
