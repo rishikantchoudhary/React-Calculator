@@ -31,7 +31,7 @@ function Calculator() {
       </div>
       <div className='input'>
         <button
-          className='span-2'
+          className='span-2 dark-button'
           onClick={() => {
             dispatch({ type: ACTIONS.CLEAR });
           }}
@@ -39,6 +39,7 @@ function Calculator() {
           AC
         </button>
         <button
+          className='dark-button'
           onClick={() => {
             dispatch({ type: ACTIONS.DELETE_DIGIT });
           }}
@@ -61,7 +62,7 @@ function Calculator() {
         <AddDigitButton digit='.' dispatch={dispatch} />
         <AddDigitButton digit='0' dispatch={dispatch} />
         <button
-          className='span-2'
+          className='span-2 dark-button'
           onClick={() => {
             dispatch({ type: ACTIONS.EVALUATE });
           }}

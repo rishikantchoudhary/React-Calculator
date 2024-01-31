@@ -74,6 +74,13 @@ const reducer = (state, { type, payload }) => {
       };
 
     case ACTIONS.DELETE_DIGIT:
+      if (state.overWrite) {
+        return {
+          ...state,
+          currentOperand: null,
+          overWrite: false,
+        };
+      }
       if (state.currentOperand != null) {
         if (state.currentOperand.length === 1) {
           return { ...state, currentOperand: null };
