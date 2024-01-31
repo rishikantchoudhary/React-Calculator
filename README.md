@@ -1,5 +1,7 @@
 # Building a Basic React Calculator App with React 18 and useReducer Hook
 
+(Site Preview)[https://react-calculator-rishi.netlify.app/]
+
 ## Introduction
 
 In this project, I developed a simple calculator app using React 18, leveraging the power of the `useReducer` hook to manage state efficiently. The primary goal was to gain a solid understanding of the `useReducer` concept and its application in state management within a React application.
